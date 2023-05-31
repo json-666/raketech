@@ -1,0 +1,57 @@
+.table {
+    width: 90%;
+    margin: auto;
+    max-width: 1450px !important;
+    border-collapse: collapse;
+}
+.table thead {
+    background-color: #F39C12;
+    padding: 15px;
+}
+.table thead th {
+    padding: 15px;
+}
+.table th,
+.table td {
+    width: 25%;
+}
+.table__playnow {
+    background-color: green;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white !important;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.table__terms {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.text-center {
+    text-align: center;
+}
+.checked,
+.fa-star-o {
+    color: orange;
+    font-size: 25px;
+}
+.table__single-row:not(:last-of-type) {
+    border-bottom: 1px solid gray;
+    margin: 15px 0;
+}
+.table__stars p {
+    line-height: 1;
+    margin-bottom: 0;
+}
+.custom-error {
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, .1);
+    padding: 25px;
+}
+.custom-error p {
+    margin: 0;
+    text-align: center;
+}
